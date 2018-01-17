@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>TV Application Launcher</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+    <section class="params">
+        <div class="params__row">
+            <span class="params__row-label">IP телевизора:</span>
+            <div class="params__row-input"><input type="text" id="tv-ip"></div>
+        </div>
+        <div class="params__row">
+            <span class="params__row-label">ID приложения:</span>
+            <div class="params__row-input"><input type="text" id="app-id"></div>
+        </div>
+        <div class="params__row">
+            <span class="params__row-label">JS url:</span>
+            <div class="params__row-input"><input type="text" id="js-url"></div>
+        </div>
+        <div class="params__row">
+            <span class="params__row-label">СSS url:</span>
+            <div class="params__row-input"><input type="text" id="css-url"></div>
+        </div>
+        <div class="params__row">
+            <span class="params__row-label">IFrame url:</span>
+            <div class="params__row-input"><input type="text" id="iframe-url"></div>
+        </div>
+    </section>
+    <section class="buttons">
+        <button id="start-btn">Запуск</button>
+        <button id="stop-btn">Остановка</button>
+        <button id="info-btn">ТВ инфо</button>
+        <button id="clear-btn">Очистить</button>
+    </section>
+    <section class="console">
+        <div id="console" class="console__container"></div>
+        <template id="console-row-tmpl">
+            <div class="console__row">
+                <time class="console__row-time"></time>
+                <code class="console__row-body"></code>
+            </div>
+        </template>
+    </section>
+<script type="text/javascript" src="js/bundle.js"></script></body>
+</html>
