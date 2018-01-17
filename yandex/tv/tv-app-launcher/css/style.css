@@ -58,6 +58,7 @@ body {
     border: 1px solid #aaa;
     width: 95%;
     flex: 1;
+    max-width: 1024px;
     overflow: hidden;
 }
 
@@ -82,3 +83,5 @@ body {
 .console__row-body {
     white-space: pre;
 }
+
+/*# sourceMappingURL=style.css.map*/
