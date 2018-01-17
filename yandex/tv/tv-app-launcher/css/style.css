@@ -58,6 +58,7 @@ body {
     border: 1px solid #aaa;
     width: 95%;
     flex: 1;
+    overflow: hidden;
 }
 
 .console__container {
