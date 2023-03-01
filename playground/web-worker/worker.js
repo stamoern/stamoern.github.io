@@ -4,7 +4,3 @@ setInterval(function() {
         s *= i;
     };
 }, 500);
-
-setInterval(function() {
-    fetch('https://mc.yandex.ru/watch/46986615/1');
-}, 2000);
