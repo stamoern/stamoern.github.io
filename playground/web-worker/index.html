@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <style>
+            .animated {
+                background: #00f;
+
+                animation: 2s infinite linear slidein;
+            }
+
+            @keyframes slidein {
+                0% {
+                    width: 0;
+                    height: 0;
+                }
+
+                50% {
+                    width: 100px;
+                    height: 100px;
+                }
+
+                100% {
+                    width: 0;
+                    height: 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="animated"></div>
+        <script src="index.js"></script>
+    </body>
+</html>
